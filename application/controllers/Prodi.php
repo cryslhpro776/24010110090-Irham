@@ -79,7 +79,7 @@ class Prodi extends CI_Controller {
         $data['prodi'] = null;
         $data['fakultas'] = $this->ProdiModel->getFakultas();
         $data['action'] = base_url('prodi/tambah');
-        $data['button'] = 'Simpan';
+        $data['button'] = 'Save';
 
         $header['title'] = 'Tambah Program Studi';
 
