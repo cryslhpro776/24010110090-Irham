@@ -158,7 +158,6 @@ class Fakultas extends CI_Controller {
             'title' => 'Dihapus!',
             'text'  => 'Data fakultas berhasil dihapus.'
         ]);
-
         redirect('fakultas');
     }
 }
