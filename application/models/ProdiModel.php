@@ -8,7 +8,7 @@ class ProdiModel extends CI_Model {
         $this->db->select('prodi.*, fakultas.fakultas_name');
         $this->db->from('prodi');
         $this->db->join('fakultas', 'fakultas.fakultas_id = prodi.fakultas_id');
-
+        
         return $this->db->get()->result_array();
     }
 
